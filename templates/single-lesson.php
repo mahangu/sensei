@@ -28,6 +28,8 @@ do_action( 'sensei_before_main_content' );
  */
 do_action( 'sensei_single_main_content' );
 
+echo "foo";
+
 /**
  * sensei_after_main_content hook
  *
