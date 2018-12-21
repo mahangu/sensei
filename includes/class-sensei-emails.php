@@ -96,7 +96,7 @@ class Sensei_Emails {
 			}
 		}
 
-		return wp_specialchars_decode( $this->_from_name );
+		return wp_specialchars_decode( $this->_from_name, $quote_style = ENT_QUOTES );
 	}
 
 	/**
